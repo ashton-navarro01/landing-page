@@ -5,8 +5,13 @@ body {
     box-sizing: border-box;
 }
 
+h2 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
 /* Header Styling */
-.header {
+.header, .footer {
     background-color: #1F2937;
 }
 
@@ -21,11 +26,6 @@ body {
     justify-content: space-between;
     padding: 0px 0px 100px;
     align-items: center;
-}
-
-.logo {
-    font-size: 24px;
-    color: #F9FAF8;
 }
 
 .links {
@@ -110,7 +110,7 @@ ul {
     justify-content: center;
     flex-wrap: wrap;
     gap: 75px;
-    padding: 0px 0px 50px;
+    padding: 0px 0px 100px;
 }
 
 .info-box {
@@ -160,4 +160,34 @@ ul {
     font-weight: 700;
     max-width: 1000px;
     text-align: right;
+}
+
+/* Call to action styling */
+.call-to-action {   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0px;
+    background-color: #3882f6;
+    margin: 100px 0px;
+    width: 1250px;
+    padding: 30px 0px;
+    border-radius: 8px;
+}
+
+.sign-up.white-border {
+    border: 2px solid #F9FAF8;
+}
+
+/* Footer Styling */
+.footer {
+    color: #F9FAF8;
+    text-align: center;
+    padding: 30px;
 }
